@@ -50,6 +50,7 @@ input {
 .top-wrapper {
     margin:0 50px;
     margin-top:65px;
+    padding-bottom:30px;
     background-color: rgba(73, 71, 71, 0.5);
     height: 520px;
     width: 1200px;
