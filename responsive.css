@@ -1,3 +1,22 @@
+/* タブレット向けのレイアウト */
+@media all and (max-width: 1000px) {
+
+    .main-contents {
+        width:87%;
+        height:90%;
+    }
+
+    .right-contents li {
+        margin-right: 80px;
+        padding-right:70px;
+    }
+
+    .top-wrapper {
+        width:800px;
+    }
+}
+
+/* スマホ向けのレイアウト */
 @media all and (max-width: 768px) {
 
     .top-wrapper {
@@ -37,3 +56,4 @@
         height:95%;
     }
 }
+
