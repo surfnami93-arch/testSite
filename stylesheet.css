@@ -6,10 +6,6 @@ p {
     margin:0px;
 }
 
-body{
-    margin:0;
-}
-
 a {
   color: inherit;
   font-size: inherit;
@@ -122,3 +118,4 @@ input {
     border-top:1px solid white;
 
 }
+
