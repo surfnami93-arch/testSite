@@ -1,0 +1,172 @@
+body {
+    margin:0px;
+}
+
+p {
+    margin:0px;
+}
+
+a {
+  color: inherit;
+  font-size: inherit;
+  text-decoration: none;
+}
+
+ul {
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+
+li {
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+
+header {
+    height:90px;
+    border-bottom:3px solid rgba(44, 44, 44, 0.907);
+}
+
+textarea {
+    resize:none;
+}
+
+input {
+    resize:none;
+}
+
+/* ローダー */
+
+.loader-wrapper {
+    position:absolute;
+    height:100%;
+    width:100%;
+    z-index:99;
+    text-align:center;
+    margin:0 auto;
+    background-color:white;
+}
+
+.loader-wrapper h1 {
+    margin-top:200px;
+    color:#3498db;
+}
+
+.loader-wrapper p {
+    opacity:0.7;
+}
+
+.load {
+    height:90px;
+}
+
+.loader {
+  width: 20px;
+  height: 20px;
+  border: 6px solid white;        /* 薄い円 */
+  border-top: 6px solid #3498db; /* 回っている部分 */
+  border-radius: 50%;
+  animation: spin 1.2s linear infinite;
+  position: fixed;
+  top: 47%;
+  left: 48.8%;
+  transform: translate(-50%, -50%);
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* メイン */
+
+.main {
+    text-align:center;
+    color:white;
+    min-height:100vh;
+    background-image: url('top.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+}
+
+.top-wrapper {
+    margin:0 50px;
+    margin-top:65px;
+    padding-bottom:30px;
+    background-color: rgba(73, 71, 71, 0.5);
+    height: 520px;
+    width: 1200px;
+    display:inline-block;
+}
+
+.username {
+    margin:0px;
+    font-size:60px;
+    margin-bottom:70px;
+    margin-left:20px;
+}
+
+.main-left {
+    float:left;
+}
+
+.main-right {
+    float:right;
+}
+
+.main-contents {
+    box-sizing:border-box;
+    margin:50px;
+    width:90%;
+    height:100%;
+}
+
+.user-explains p {
+    opacity:0.7;
+    margin-right:30px;
+    display:inline-block;
+    margin-bottom:50px;
+    font-size:17px;
+}
+
+.left-links {
+    text-align:left;
+}
+
+.left-links i {
+    display:inline-block;
+    margin-right:20px;
+    font-size:25px;
+}
+
+.youtube-icon {
+    margin-left:20px;
+    color:#ff0033;
+}
+
+.x-icon {
+    color:rgb(25, 25, 25);
+}
+
+.discord-icon {
+    color:#5965f2;
+}
+
+.right-contents li {
+    text-align:left;
+    padding:15px 0;
+    padding-right:300px;
+    border-bottom:1px solid white;
+    opacity:0.7;
+}
+
+.first-content {
+    border-top:1px solid white;
+}
