@@ -50,9 +50,14 @@
         margin:0 50px;
     }
 
+    .youtube-icon {
+        margin-left:0px;
+    }
+
     .main-contents {
         margin:20px;
         margin-top:50px;
         height:95%;
     }
 }
+
