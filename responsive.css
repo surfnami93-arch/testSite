@@ -24,6 +24,13 @@
         height:800px;
         margin-bottom:80px;
     }
+
+    .main-contents {
+        margin:20px;
+        margin-top:50px;
+        height:95%;
+        width:90.1%;
+    }
     
     .main-left {
         display:block;
@@ -37,6 +44,10 @@
         margin-bottom:20px;
     }
 
+    .left-links a.youtube-icon {
+        margin-left: 0;
+    }
+    
     .main-right {
         float:none;
         display: inline-block;
@@ -49,16 +60,7 @@
         padding:15px 75px;
         margin:0 50px;
     }
-
-    .left-links a.youtube-icon {
-        margin-left: 0;
-    }
-
-    .main-contents {
-        margin:20px;
-        margin-top:50px;
-        height:95%;
-    }
 }
+
 
 
