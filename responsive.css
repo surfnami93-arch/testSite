@@ -1,6 +1,10 @@
 /* タブレット向けのレイアウト */
 @media all and (max-width: 1000px) {
 
+    .top-wrapper {
+        width:800px;
+    }
+
     .main-contents {
         width:87%;
         height:90%;
@@ -9,10 +13,6 @@
     .right-contents li {
         margin-right: 80px;
         padding-right:70px;
-    }
-
-    .top-wrapper {
-        width:800px;
     }
 }
 
@@ -61,6 +61,7 @@
         margin:0 50px;
     }
 }
+
 
 
 
